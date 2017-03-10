@@ -1,0 +1,78 @@
+body{
+	margin: auto; 
+	background: black; 
+}
+
+container{
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 130px;
+
+}
+
+.calculator{
+	 margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 450px;
+    height: 300px;
+    margin-top: 20px;
+    border: 20px solid gray;
+
+	
+}
+
+.values{
+	display: flex;
+    flex-direction: row;
+    /* height: 27px; */
+    margin-left: 31px;
+    margin-top: -53px;
+
+}
+
+.inputs{
+	display: flex;
+    flex-direction: row;
+    margin-left: 36px height: 30px;
+    margin-top: -63px;
+    margin-left: 32px;
+}
+
+
+input, .multiply, .divide, .add, .subtract {
+	margin-left: 5px; 
+	background: rgb(250, 250, 250);
+    margin-left: 14px;
+    width: 76px;
+    list-style: none;
+    font-size: 18px;
+}
+
+ 
+ .value1, .value2, .answer{
+	margin-left: 50px;
+    width: 55px;
+    height: 26px;
+    color: #4e4b4b;
+    font-size: 30px;
+    text-align: center;
+}
+
+li, .multiply, .divide, .add, .subtract {
+	list-style: none;
+}
+
+ul{
+	list-style: none; 
+}
+
+H2{
+	color: white;
+    margin-left: 127px;
+    font-size: 29px;
+}
+
